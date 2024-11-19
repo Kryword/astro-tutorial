@@ -1,9 +1,8 @@
 ---
-const platform = "github";
-const username = "kryword";
+import Social from './Social.astro';
 ---
 
 <footer>
-    <p>¡Algunos de mis proyectos están disponibles en <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p>
-    <p>Este es <a href={`https://www.x.com/${username}`}>mi twitter</a>!</p>
+    <Social platform="github" username="kryword"/>
+    <Social platform="x" username="kryword"/>
 </footer>
